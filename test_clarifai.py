@@ -1,5 +1,6 @@
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as ClImage
+import Image
 
 
 app = ClarifaiApp(api_key='26e76b22e8394454a9e38befc4ac6fb5')
@@ -21,3 +22,6 @@ def get_boxes(m):
 
 
 print(get_boxes(m))
+
+
+# def cropp_ims
