@@ -1,4 +1,3 @@
-__author__ = 'Toshiba'
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as ClImage
 
